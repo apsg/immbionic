@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Land.io: Free Landing Page HTML Template | Codrops</title>
-    <meta name="description" content="A free HTML template and UI Kit built on Bootstrap" />
-    <meta name="keywords" content="free html template, bootstrap, ui kit, sass" />
-    <meta name="author" content="Peter Finlan and Taty Grassini Codrops" />
+    <meta name="description" content="A free HTML template and UI Kit built on Bootstrap"/>
+    <meta name="keywords" content="free html template, bootstrap, ui kit, sass"/>
+    <meta name="author" content="Peter Finlan and Taty Grassini Codrops"/>
     <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-touch-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-touch-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-touch-icon-72x72.png">
@@ -38,47 +38,75 @@
 <nav class="navbar navbar-dark bg-inverse bg-inverse-custom navbar-fixed-top">
     <div class="container">
         <a class="navbar-brand" href="#">
-            <span class="icon-logo"></span>
+            {{--            <span class="icon-logo"></span>--}}
+            <img src="{{ asset('img/logo_final.svg') }}" style="height: 50px">
             <span class="sr-only">immbionic</span>
         </a>
-        <a class="navbar-toggler hidden-md-up pull-xs-right" data-toggle="collapse" href="#collapsingNavbar" aria-expanded="false" aria-controls="collapsingNavbar">
+        <a class="navbar-toggler hidden-md-up pull-xs-right" data-toggle="collapse" href="#collapsingNavbar"
+           aria-expanded="false" aria-controls="collapsingNavbar">
             &#9776;
         </a>
-        <a class="navbar-toggler navbar-toggler-custom hidden-md-up pull-xs-right" data-toggle="collapse" href="#collapsingMobileUser" aria-expanded="false" aria-controls="collapsingMobileUser">
+        <a class="navbar-toggler navbar-toggler-custom hidden-md-up pull-xs-right" data-toggle="collapse"
+           href="#collapsingMobileUser" aria-expanded="false" aria-controls="collapsingMobileUser">
             <span class="icon-user"></span>
         </a>
-        <div id="collapsingNavbar" class="collapse navbar-toggleable-custom" role="tabpanel" aria-labelledby="collapsingNavbar">
+        <div id="collapsingNavbar" class="collapse navbar-toggleable-custom" role="tabpanel"
+             aria-labelledby="collapsingNavbar">
             <ul class="nav navbar-nav pull-xs-right">
+                {{--                <li class="nav-item nav-item-toggable">--}}
+                {{--                    <a class="nav-link" href="./index-carousel.html"><small>NEW</small> Slides<span class="sr-only">(current)</span></a>--}}
+                {{--                </li>--}}
+                {{--                <li class="nav-item nav-item-toggable">--}}
+                {{--                    <a class="nav-link" href="ui-elements.html">UI Kit</a>--}}
+                {{--                </li>--}}
+                {{--                <li class="nav-item nav-item-toggable">--}}
+                {{--                    <a class="nav-link" href="https://github.com/tatygrassini/landio-html" target="_blank">GitHub</a>--}}
+                {{--                </li>--}}
+
+
                 <li class="nav-item nav-item-toggable">
-                    <a class="nav-link" href="./index-carousel.html"><small>NEW</small> Slides<span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="/courses">O nas</a>
                 </li>
                 <li class="nav-item nav-item-toggable">
-                    <a class="nav-link" href="ui-elements.html">UI Kit</a>
+                    <a class="nav-link" href="/courses">Zespół</a>
                 </li>
                 <li class="nav-item nav-item-toggable">
-                    <a class="nav-link" href="https://github.com/tatygrassini/landio-html" target="_blank">GitHub</a>
+                    <a class="nav-link" href="/courses">Aktualności</a>
+                </li>
+                <li class="nav-item nav-item-toggable">
+                    <a class="nav-link" href="/courses"><small>NASZE</small> Kursy<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item nav-item-toggable">
+                    <a class="nav-link" href="/courses">Kontakt</a>
                 </li>
                 <li class="nav-item nav-item-toggable hidden-md-up">
                     <form class="navbar-form">
-                        <input class="form-control navbar-search-input" type="text" placeholder="Type your search &amp; hit Enter&hellip;">
+                        <input class="form-control navbar-search-input" type="text"
+                               placeholder="Type your search &amp; hit Enter&hellip;">
                     </form>
                 </li>
                 <li class="navbar-divider hidden-sm-down"></li>
                 <li class="nav-item dropdown nav-dropdown-search hidden-sm-down">
-                    <a class="nav-link dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true"
+                       aria-expanded="false">
                         <span class="icon-search"></span>
                     </a>
                     <div class="dropdown-menu dropdown-menu-right dropdown-menu-search" aria-labelledby="dropdownMenu1">
                         <form class="navbar-form">
-                            <input class="form-control navbar-search-input" type="text" placeholder="Type your search &amp; hit Enter&hellip;">
+                            <input class="form-control navbar-search-input" type="text"
+                                   placeholder="Type your search &amp; hit Enter&hellip;">
                         </form>
                     </div>
                 </li>
                 <li class="nav-item dropdown hidden-sm-down textselect-off">
-                    <a class="nav-link dropdown-toggle nav-dropdown-user" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        <img src="img/face5.jpg" height="40" width="40" alt="Avatar" class="img-circle"> <span class="icon-caret-down"></span>
+                    <a class="nav-link dropdown-toggle nav-dropdown-user" id="dropdownMenu2" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false">
+                        {{--                        <img src="img/face5.jpg" height="40" width="40" alt="Avatar" class="img-circle">--}}
+                        <i class="fa fa-2x fa-user"></i>
+                        <span class="icon-caret-down"></span>
                     </a>
-                    <div class="dropdown-menu dropdown-menu-right dropdown-menu-user dropdown-menu-animated" aria-labelledby="dropdownMenu2">
+                    <div class="dropdown-menu dropdown-menu-right dropdown-menu-user dropdown-menu-animated"
+                         aria-labelledby="dropdownMenu2">
                         <div class="media">
                             <div class="media-left">
                                 <img src="img/face5.jpg" height="60" width="60" alt="Avatar" class="img-circle">
@@ -100,7 +128,8 @@
                 </li>
             </ul>
         </div>
-        <div id="collapsingMobileUser" class="collapse navbar-toggleable-custom dropdown-menu-custom p-x-1 hidden-md-up" role="tabpanel" aria-labelledby="collapsingMobileUser">
+        <div id="collapsingMobileUser" class="collapse navbar-toggleable-custom dropdown-menu-custom p-x-1 hidden-md-up"
+             role="tabpanel" aria-labelledby="collapsingMobileUser">
             <div class="media m-t-1">
                 <div class="media-left">
                     <img src="img/face5.jpg" height="60" width="60" alt="Avatar" class="img-circle">
@@ -129,7 +158,9 @@
     <div class="container">
         <h1 class="display-3">Immbionic</h1>
         <h2 class="m-b-3">Science for health</h2>
-        <a class="btn btn-secondary-outline m-b-1" href="http://tympanus.net/codrops/?p=25217" role="button"><span class="icon-sketch"></span>Sketch included</a>
+        <a class="btn btn-secondary-outline m-b-1" href="#" role="button">
+            <i class="fa fa-leaf"></i>
+            Zobacz szkolenia</a>
         <ul class="nav nav-inline social-share">
             <li class="nav-item"><a class="nav-link" href="#"><span class="icon-twitter"></span> 1024</a></li>
             <li class="nav-item"><a class="nav-link" href="#"><span class="icon-facebook"></span> 562</a></li>
@@ -161,7 +192,8 @@
                         <span class="icon-pen display-1"></span>
                         <h4 class="card-title">250</h4>
                         <h6 class="card-subtitle text-muted">UI Elements</h6>
-                        <p class="card-text">Sed risus feugiat fusce eu sit conubia venenatis aliquet nisl cras eu adipiscing ac cras at sem cras per senectus eu parturient quam.</p>
+                        <p class="card-text">Sed risus feugiat fusce eu sit conubia venenatis aliquet nisl cras eu
+                            adipiscing ac cras at sem cras per senectus eu parturient quam.</p>
                     </div>
                 </div>
             </div>
@@ -171,7 +203,8 @@
                         <span class="icon-thunderbolt display-1"></span>
                         <h4 class="card-title">Ultra</h4>
                         <h6 class="card-subtitle text-muted">Modern design</h6>
-                        <p class="card-text">Sed risus feugiat fusce eu sit conubia venenatis aliquet nisl cras eu adipiscing ac cras at sem cras per senectus eu parturient quam.</p>
+                        <p class="card-text">Sed risus feugiat fusce eu sit conubia venenatis aliquet nisl cras eu
+                            adipiscing ac cras at sem cras per senectus eu parturient quam.</p>
                     </div>
                 </div>
             </div>
@@ -181,7 +214,8 @@
                         <span class="icon-heart display-1"></span>
                         <h4 class="card-title">Free</h4>
                         <h6 class="card-subtitle text-muted">Forever and ever</h6>
-                        <p class="card-text">Sed risus feugiat fusce eu sit conubia venenatis aliquet nisl cras eu adipiscing ac cras at sem cras per senectus eu parturient quam.</p>
+                        <p class="card-text">Sed risus feugiat fusce eu sit conubia venenatis aliquet nisl cras eu
+                            adipiscing ac cras at sem cras per senectus eu parturient quam.</p>
                     </div>
                 </div>
             </div>
@@ -194,7 +228,8 @@
 
 <section class="section-video bg-inverse text-xs-center wp wp-4">
     <h3 class="sr-only">Video</h3>
-    <video id="demo_video" class="video-js vjs-default-skin vjs-big-play-centered" controls poster="img/video-poster.jpg" data-setup='{}'>
+    <video id="demo_video" class="video-js vjs-default-skin vjs-big-play-centered" controls
+           poster="img/video-poster.jpg" data-setup='{}'>
         <source src="http://vjs.zencdn.net/v/oceans.mp4" type='video/mp4'>
         <source src="http://vjs.zencdn.net/v/oceans.webm" type='video/webm'>
     </video>
@@ -286,45 +321,55 @@
                 <div class="carousel-item active">
                     <blockquote class="blockquote">
                         <img src="img/face1.jpg" height="80" width="80" alt="Avatar" class="img-circle">
-                        <p class="h3">Good design at the front-end suggests that everything is in order at the back-end, whether or not that is the case.</p>
+                        <p class="h3">Good design at the front-end suggests that everything is in order at the back-end,
+                            whether or not that is the case.</p>
                         <footer>Dmitry Fadeyev</footer>
                     </blockquote>
                 </div>
                 <div class="carousel-item">
                     <blockquote class="blockquote">
                         <img src="img/face2.jpg" height="80" width="80" alt="Avatar" class="img-circle">
-                        <p class="h3">It’s not about knowing all the gimmicks and photo tricks. If you haven’t got the eye, no program will give it to you.</p>
+                        <p class="h3">It’s not about knowing all the gimmicks and photo tricks. If you haven’t got the
+                            eye, no program will give it to you.</p>
                         <footer>David Carson</footer>
                     </blockquote>
                 </div>
                 <div class="carousel-item">
                     <blockquote class="blockquote">
                         <img src="img/face3.jpg" height="80" width="80" alt="Avatar" class="img-circle">
-                        <p class="h3">There’s a point when you’re done simplifying. Otherwise, things get really complicated.</p>
+                        <p class="h3">There’s a point when you’re done simplifying. Otherwise, things get really
+                            complicated.</p>
                         <footer>Frank Chimero</footer>
                     </blockquote>
                 </div>
                 <div class="carousel-item">
                     <blockquote class="blockquote">
                         <img src="img/face4.jpg" height="80" width="80" alt="Avatar" class="img-circle">
-                        <p class="h3">Designing for clients that don’t appreciate the value of design is like buying new tires for a rental car.</p>
+                        <p class="h3">Designing for clients that don’t appreciate the value of design is like buying new
+                            tires for a rental car.</p>
                         <footer>Joel Fisher</footer>
                     </blockquote>
                 </div>
                 <div class="carousel-item">
                     <blockquote class="blockquote">
                         <img src="img/face5.jpg" height="80" width="80" alt="Avatar" class="img-circle">
-                        <p class="h3">Every picture owes more to other pictures painted before than it owes to nature.</p>
+                        <p class="h3">Every picture owes more to other pictures painted before than it owes to
+                            nature.</p>
                         <footer>E.H. Gombrich</footer>
                     </blockquote>
                 </div>
             </div>
             <ol class="carousel-indicators">
-                <li class="active"><img src="img/face1.jpg" alt="Navigation avatar" data-target="#carousel-testimonials" data-slide-to="0" class="img-fluid img-circle"></li>
-                <li><img src="img/face2.jpg" alt="Navigation avatar" data-target="#carousel-testimonials" data-slide-to="1" class="img-fluid img-circle"></li>
-                <li><img src="img/face3.jpg" alt="Navigation avatar" data-target="#carousel-testimonials" data-slide-to="2" class="img-fluid img-circle"></li>
-                <li><img src="img/face4.jpg" alt="Navigation avatar" data-target="#carousel-testimonials" data-slide-to="3" class="img-fluid img-circle"></li>
-                <li><img src="img/face5.jpg" alt="Navigation avatar" data-target="#carousel-testimonials" data-slide-to="4" class="img-fluid img-circle"></li>
+                <li class="active"><img src="img/face1.jpg" alt="Navigation avatar" data-target="#carousel-testimonials"
+                                        data-slide-to="0" class="img-fluid img-circle"></li>
+                <li><img src="img/face2.jpg" alt="Navigation avatar" data-target="#carousel-testimonials"
+                         data-slide-to="1" class="img-fluid img-circle"></li>
+                <li><img src="img/face3.jpg" alt="Navigation avatar" data-target="#carousel-testimonials"
+                         data-slide-to="2" class="img-fluid img-circle"></li>
+                <li><img src="img/face4.jpg" alt="Navigation avatar" data-target="#carousel-testimonials"
+                         data-slide-to="3" class="img-fluid img-circle"></li>
+                <li><img src="img/face5.jpg" alt="Navigation avatar" data-target="#carousel-testimonials"
+                         data-slide-to="4" class="img-fluid img-circle"></li>
             </ol>
         </div>
     </div>
@@ -338,10 +383,16 @@
         <h3 class="text-xs-center">Make your mark on the product industry</h3>
         <div class="row p-y-3">
             <div class="col-md-5">
-                <p class="wp wp-7">A posuere donec senectus suspendisse bibendum magna ridiculus a justo orci parturient suspendisse ad rhoncus cursus ut parturient viverra elit aliquam ultrices est sem. Tellus nam ad fermentum ac enim est duis facilisis congue a lacus adipiscing consequat risus consectetur scelerisque integer suspendisse a mus integer elit massa ut.</p>
+                <p class="wp wp-7">A posuere donec senectus suspendisse bibendum magna ridiculus a justo orci parturient
+                    suspendisse ad rhoncus cursus ut parturient viverra elit aliquam ultrices est sem. Tellus nam ad
+                    fermentum ac enim est duis facilisis congue a lacus adipiscing consequat risus consectetur
+                    scelerisque integer suspendisse a mus integer elit massa ut.</p>
             </div>
             <div class="col-md-5 col-md-offset-2 separator-x">
-                <p class="wp wp-8">A posuere donec senectus suspendisse bibendum magna ridiculus a justo orci parturient suspendisse ad rhoncus cursus ut parturient viverra elit aliquam ultrices est sem. Tellus nam ad fermentum ac enim est duis facilisis congue a lacus adipiscing consequat risus consectetur scelerisque integer suspendisse a mus integer elit massa ut.</p>
+                <p class="wp wp-8">A posuere donec senectus suspendisse bibendum magna ridiculus a justo orci parturient
+                    suspendisse ad rhoncus cursus ut parturient viverra elit aliquam ultrices est sem. Tellus nam ad
+                    fermentum ac enim est duis facilisis congue a lacus adipiscing consequat risus consectetur
+                    scelerisque integer suspendisse a mus integer elit massa ut.</p>
             </div>
         </div>
     </div>
@@ -357,14 +408,17 @@
             <div class="row">
                 <div class="col-md-6 p-r-0">
                     <figure class="has-light-mask m-b-0 image-effect">
-                        <img src="https://images.unsplash.com/photo-1442328166075-47fe7153c128?q=80&fm=jpg&w=1080&fit=max" alt="Article thumbnail" class="img-fluid">
+                        <img
+                            src="https://images.unsplash.com/photo-1442328166075-47fe7153c128?q=80&fm=jpg&w=1080&fit=max"
+                            alt="Article thumbnail" class="img-fluid">
                     </figure>
                 </div>
                 <div class="col-md-6 p-l-0">
                     <article class="center-block">
                         <span class="label label-info">Featured article</span>
                         <br>
-                        <h5><a href="#">Design studio with product designer Peter Finlan <span class="icon-arrow-right"></span></a></h5>
+                        <h5><a href="#">Design studio with product designer Peter Finlan <span
+                                    class="icon-arrow-right"></span></a></h5>
                         <p class="m-b-0">
                             <a href="#"><span class="label label-default text-uppercase"><span class="icon-tag"></span> Design Studio</span></a>
                             <a href="#"><span class="label label-default text-uppercase"><span class="icon-time"></span> 1 Hour Ago</span></a>
@@ -375,14 +429,17 @@
             <div class="row">
                 <div class="col-md-6 col-md-push-6 p-l-0">
                     <figure class="has-light-mask m-b-0 image-effect">
-                        <img src="https://images.unsplash.com/photo-1434394673726-e8232a5903b4?q=80&fm=jpg&w=1080&fit=max" alt="Article thumbnail" class="img-fluid">
+                        <img
+                            src="https://images.unsplash.com/photo-1434394673726-e8232a5903b4?q=80&fm=jpg&w=1080&fit=max"
+                            alt="Article thumbnail" class="img-fluid">
                     </figure>
                 </div>
                 <div class="col-md-6 col-md-pull-6 p-r-0">
                     <article class="center-block">
                         <span class="label label-info">Featured article</span>
                         <br>
-                        <h5><a href="#">How bold, emotive imagery can connect with your audience <span class="icon-arrow-right"></span></a></h5>
+                        <h5><a href="#">How bold, emotive imagery can connect with your audience <span
+                                    class="icon-arrow-right"></span></a></h5>
                         <p class="m-b-0">
                             <a href="#"><span class="label label-default text-uppercase"><span class="icon-tag"></span> Design Studio</span></a>
                             <a href="#"><span class="label label-default text-uppercase"><span class="icon-time"></span> 1 Hour Ago</span></a>
@@ -411,13 +468,15 @@
                 <div class="col-md-6 col-xl-3">
                     <div class="form-group has-icon-left form-control-email">
                         <label class="sr-only" for="inputEmail">Email address</label>
-                        <input type="email" class="form-control form-control-lg" id="inputEmail" placeholder="Email address" autocomplete="off">
+                        <input type="email" class="form-control form-control-lg" id="inputEmail"
+                               placeholder="Email address" autocomplete="off">
                     </div>
                 </div>
                 <div class="col-md-6 col-xl-3">
                     <div class="form-group has-icon-left form-control-password">
                         <label class="sr-only" for="inputPassword">Enter a password</label>
-                        <input type="password" class="form-control form-control-lg" id="inputPassword" placeholder="Enter a password" autocomplete="off">
+                        <input type="password" class="form-control form-control-lg" id="inputPassword"
+                               placeholder="Enter a password" autocomplete="off">
                     </div>
                 </div>
                 <div class="col-md-6 col-xl-3">
@@ -457,8 +516,10 @@
                         <a class="nav-link" href="./index-carousel.html"><small>NEW</small> Slides<span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item"><a class="nav-link" href="ui-elements.html">UI Kit</a></li>
-                    <li class="nav-item"><a class="nav-link" href="https://github.com/tatygrassini/landio-html" target="_blank">GitHub</a></li>
-                    <li class="nav-item"><a class="nav-link scroll-top" href="#totop">Back to top <span class="icon-caret-up"></span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://github.com/tatygrassini/landio-html"
+                                            target="_blank">GitHub</a></li>
+                    <li class="nav-item"><a class="nav-link scroll-top" href="#totop">Back to top <span
+                                class="icon-caret-up"></span></a></li>
                 </ul>
             </div>
         </div>
