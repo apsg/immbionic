@@ -1,5 +1,6 @@
 <?php
 
+use App\Domains\Courses\Controllers\CoursesController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -20,3 +21,7 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+
+Route::group(['prefix' => 'courses'], function () {
+    Route::get('/', [CoursesController::class, 'index'])->name('courses.index');
+});
