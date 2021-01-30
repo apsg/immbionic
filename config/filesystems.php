@@ -52,6 +52,16 @@ return [
             'endpoint' => env('AWS_ENDPOINT'),
         ],
 
+        'scaleway' => [
+            'driver'   => 's3',
+            'key'      => env('SCALEWAY_ACCESS_KEY_ID'),
+            'secret'   => env('SCALEWAY_SECRET_ACCESS_KEY'),
+            'region'   => env('SCALEWAY_DEFAULT_REGION'),
+            'bucket'   => env('SCALEWAY_BUCKET'),
+            'url'      => env('SCALEWAY_URL'),
+            'endpoint' => env('SCALEWAY_ENDPOINT'),
+        ],
+
     ],
 
     /*
