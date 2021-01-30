@@ -101,7 +101,8 @@
                             Personal
                         </div>
                         <div class="card-block">
-                            <p class="card-title">Sed risus feugiat fusce eu sit conubia venenatis aliquet nisl cras.</p>
+                            <p class="card-title">Sed risus feugiat fusce eu sit conubia venenatis aliquet nisl
+                                cras.</p>
                             <h4 class="card-text">
                                 <sup class="pricing-box-currency">$</sup>
                                 <span class="pricing-box-price">19</span>
@@ -122,7 +123,8 @@
                             Professional
                         </div>
                         <div class="card-block">
-                            <p class="card-title">Sed risus feugiat fusce eu sit conubia venenatis aliquet nisl cras.</p>
+                            <p class="card-title">Sed risus feugiat fusce eu sit conubia venenatis aliquet nisl
+                                cras.</p>
                             <h4 class="card-text">
                                 <sup class="pricing-box-currency">$</sup>
                                 <span class="pricing-box-price">49</span>
@@ -144,7 +146,8 @@
                             Enterprise
                         </div>
                         <div class="card-block">
-                            <p class="card-title">Sed risus feugiat fusce eu sit conubia venenatis aliquet nisl cras.</p>
+                            <p class="card-title">Sed risus feugiat fusce eu sit conubia venenatis aliquet nisl
+                                cras.</p>
                             <h4 class="card-text">
                                 <sup class="pricing-box-currency">$</sup>
                                 <span class="pricing-box-price">99</span>
@@ -174,7 +177,8 @@
                     <div class="carousel-item active">
                         <blockquote class="blockquote">
                             <img src="img/face1.jpg" height="80" width="80" alt="Avatar" class="img-circle">
-                            <p class="h3">Good design at the front-end suggests that everything is in order at the back-end,
+                            <p class="h3">Good design at the front-end suggests that everything is in order at the
+                                back-end,
                                 whether or not that is the case.</p>
                             <footer>Dmitry Fadeyev</footer>
                         </blockquote>
@@ -182,7 +186,8 @@
                     <div class="carousel-item">
                         <blockquote class="blockquote">
                             <img src="img/face2.jpg" height="80" width="80" alt="Avatar" class="img-circle">
-                            <p class="h3">It’s not about knowing all the gimmicks and photo tricks. If you haven’t got the
+                            <p class="h3">It’s not about knowing all the gimmicks and photo tricks. If you haven’t got
+                                the
                                 eye, no program will give it to you.</p>
                             <footer>David Carson</footer>
                         </blockquote>
@@ -198,7 +203,8 @@
                     <div class="carousel-item">
                         <blockquote class="blockquote">
                             <img src="img/face4.jpg" height="80" width="80" alt="Avatar" class="img-circle">
-                            <p class="h3">Designing for clients that don’t appreciate the value of design is like buying new
+                            <p class="h3">Designing for clients that don’t appreciate the value of design is like buying
+                                new
                                 tires for a rental car.</p>
                             <footer>Joel Fisher</footer>
                         </blockquote>
@@ -213,7 +219,8 @@
                     </div>
                 </div>
                 <ol class="carousel-indicators">
-                    <li class="active"><img src="img/face1.jpg" alt="Navigation avatar" data-target="#carousel-testimonials"
+                    <li class="active"><img src="img/face1.jpg" alt="Navigation avatar"
+                                            data-target="#carousel-testimonials"
                                             data-slide-to="0" class="img-fluid img-circle"></li>
                     <li><img src="img/face2.jpg" alt="Navigation avatar" data-target="#carousel-testimonials"
                              data-slide-to="1" class="img-fluid img-circle"></li>
@@ -236,13 +243,15 @@
             <h3 class="text-xs-center">Make your mark on the product industry</h3>
             <div class="row p-y-3">
                 <div class="col-md-5">
-                    <p class="wp wp-7">A posuere donec senectus suspendisse bibendum magna ridiculus a justo orci parturient
+                    <p class="wp wp-7">A posuere donec senectus suspendisse bibendum magna ridiculus a justo orci
+                        parturient
                         suspendisse ad rhoncus cursus ut parturient viverra elit aliquam ultrices est sem. Tellus nam ad
                         fermentum ac enim est duis facilisis congue a lacus adipiscing consequat risus consectetur
                         scelerisque integer suspendisse a mus integer elit massa ut.</p>
                 </div>
                 <div class="col-md-5 col-md-offset-2 separator-x">
-                    <p class="wp wp-8">A posuere donec senectus suspendisse bibendum magna ridiculus a justo orci parturient
+                    <p class="wp wp-8">A posuere donec senectus suspendisse bibendum magna ridiculus a justo orci
+                        parturient
                         suspendisse ad rhoncus cursus ut parturient viverra elit aliquam ultrices est sem. Tellus nam ad
                         fermentum ac enim est duis facilisis congue a lacus adipiscing consequat risus consectetur
                         scelerisque integer suspendisse a mus integer elit massa ut.</p>
@@ -273,8 +282,10 @@
                             <h5><a href="#">Design studio with product designer Peter Finlan <span
                                         class="icon-arrow-right"></span></a></h5>
                             <p class="m-b-0">
-                                <a href="#"><span class="label label-default text-uppercase"><span class="icon-tag"></span> Design Studio</span></a>
-                                <a href="#"><span class="label label-default text-uppercase"><span class="icon-time"></span> 1 Hour Ago</span></a>
+                                <a href="#"><span class="label label-default text-uppercase"><span
+                                            class="icon-tag"></span> Design Studio</span></a>
+                                <a href="#"><span class="label label-default text-uppercase"><span
+                                            class="icon-time"></span> 1 Hour Ago</span></a>
                             </p>
                         </article>
                     </div>
@@ -294,8 +305,10 @@
                             <h5><a href="#">How bold, emotive imagery can connect with your audience <span
                                         class="icon-arrow-right"></span></a></h5>
                             <p class="m-b-0">
-                                <a href="#"><span class="label label-default text-uppercase"><span class="icon-tag"></span> Design Studio</span></a>
-                                <a href="#"><span class="label label-default text-uppercase"><span class="icon-time"></span> 1 Hour Ago</span></a>
+                                <a href="#"><span class="label label-default text-uppercase"><span
+                                            class="icon-tag"></span> Design Studio</span></a>
+                                <a href="#"><span class="label label-default text-uppercase"><span
+                                            class="icon-time"></span> 1 Hour Ago</span></a>
                             </p>
                         </article>
                     </div>
@@ -315,7 +328,8 @@
                     <div class="col-md-6 col-xl-3">
                         <div class="form-group has-icon-left form-control-name">
                             <label class="sr-only" for="inputName">Your name</label>
-                            <input type="text" class="form-control form-control-lg" id="inputName" placeholder="Your name">
+                            <input type="text" class="form-control form-control-lg" id="inputName"
+                                   placeholder="Your name">
                         </div>
                     </div>
                     <div class="col-md-6 col-xl-3">
