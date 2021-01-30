@@ -37,7 +37,7 @@
 @if(Request::is('/'))
     <nav class="navbar navbar-dark bg-inverse bg-inverse-custom navbar-fixed-top">
 @else
-    <nav class="navbar bg-white">
+    <nav class="navbar bg-white bg-inverse-custom">
 @endif
     <div class="container">
         <a class="navbar-brand" href="{{ url('/') }}">
